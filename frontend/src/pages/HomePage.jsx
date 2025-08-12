@@ -9,7 +9,7 @@ import {
 import { Link } from "react-router";
 import { CheckCircleIcon, MapPinIcon, UserPlusIcon, UsersIcon } from "lucide-react";
 
-import { capitialize } from "../lib/utils";
+import { capitialize } from "../lib/utils.js";
 
 import FriendCard, { getLanguageFlag } from "../components/FriendCard";
 import NoFriendsFound from "../components/NoFriendsFound";
@@ -27,6 +27,7 @@ const HomePage = () => {
     queryKey: ["users"],
     queryFn: getRecommendedUsers,
   });
+  
 
   const { data: outgoingFriendReqs } = useQuery({
     queryKey: ["outgoingFriendReqs"],
