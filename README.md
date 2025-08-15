@@ -116,7 +116,7 @@ Streamify is a real-time chat and video calling application that connects langua
 
 ## Deployment
 
-[D[eployment link will be added here](https://streamify-vsk2.onrender.com/login)]
+[[Website Link](https://streamify-vsk2.onrender.com/login)]
 
 ## Project Structure
 
